@@ -27,3 +27,19 @@ main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
 }
+
+/* Mobile Size */
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+
+/* Desktop Size */
+@media all and (min-width: 800px) {
+
+  .group {
+    flex-direction: row;
+  }
+}
